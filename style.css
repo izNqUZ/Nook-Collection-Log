@@ -660,6 +660,30 @@ body::after {
   gap: 10px;
 }
 
+.stats {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.card,
+.dialog,
+.info,
+.detail-stat-metric,
+.detail-stat-metric b {
+  font-family: var(--acnh-font);
+}
+
+.status {
+  min-height: 32px;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+.check {
+  color: var(--acnh-green-dark);
+  font-weight: 800;
+}
+
 .global .badge,
 .stat {
   min-height: 92px;

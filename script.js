@@ -18,10 +18,10 @@
   };
 
   const statusTitles = {
-    need: "还没有捐给博物馆",
-    lack: "数量还没有达到保留目标",
+    need: "还有待捐赠或待制作事项",
+    lack: "数量或模型材料还没有达到当前目标",
     done: "已满足当前保留目标",
-    sell: "超过保留目标，可以考虑售卖",
+    sell: "当前数量超过保留目标，可以售卖",
   };
 
   let lastFocusedElement = null;
